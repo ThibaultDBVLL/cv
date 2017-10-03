@@ -262,8 +262,10 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
  border-radius: 4px;
  width: 100%;
 }
-.info{
-
+.info p{
+border: 1px solid black;
+width: 80%;
+margin-left: 30%;
 }
 .info h2, #header h2{
   text-transform: uppercase;
@@ -274,6 +276,7 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
 .info h4, #header h4{
   color: #474545;
 }
+
 /* Contact */
 .main-links{
 
