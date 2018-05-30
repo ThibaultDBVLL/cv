@@ -726,3 +726,8 @@ Change widths as necessary
   h2, h3{page-break-after: avoid}
 }
 
+.item-data {
+  display : flex;
+  justify-content: space-between;
+  
+}
