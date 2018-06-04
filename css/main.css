@@ -727,6 +727,9 @@ Change widths as necessary
 
 .item-data {
   display : flex;
-  justify-content: space-between;
-  
+  justify-content: space-between; 
+}
+
+#pcesi {
+  padding-left : 2em;
 }
