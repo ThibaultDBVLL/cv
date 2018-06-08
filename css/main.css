@@ -357,7 +357,9 @@ margin-left: 30%;
 
 /* Portfolio */
 .image{
-  position: relative;
+  /* position: relative; */
+  display : inline-flex;
+  flex-wrap: wrap;
 }
 .image img{
   margin: 0px;
