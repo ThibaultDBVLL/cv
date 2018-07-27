@@ -747,3 +747,8 @@ Change widths as necessary
 #recherche{
   color: rgb(138, 17, 17);
 }
+
+.etabs{
+  display : flex;
+  justify-content: center; 
+}
