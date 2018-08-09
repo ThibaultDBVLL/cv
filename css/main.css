@@ -200,7 +200,7 @@ body{
   background:black;
   opacity : 0.9;
   border: 1px solid #f1f1f1;
-  box-shadow: 0px 6px #c0392b;
+  box-shadow: 0px 6px #517E23;
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -347,7 +347,7 @@ margin-left: 30%;
 
 /* WorkExperience */
 .work li{
-  border-bottom: 1px solid #f1f1f1;
+  border-bottom: 1px solid #517E23;
   margin-bottom: 2em;
 }
 .work li span{
@@ -377,7 +377,7 @@ margin-left: 30%;
   overflow: hidden;
   width: 100%;
   height: 99%;
-  background-color: rgba(231, 76, 60,.6);
+  background-color: #517E23;
   text-align: center;
   opacity:0;
   filter: alpha(opacity=0);
@@ -422,7 +422,7 @@ margin-left: 30%;
   display:inline-block;
   margin: 0 10px 10px 0;
   padding: 14px 20px;
-  background: #E74C3C;
+  background: #517E23;
   color: #fff;
   font-weight: bold;
   font-size: 13px;
@@ -454,7 +454,7 @@ margin-left: 30%;
   border-radius: .25em;
 }
 .label-info {
-  background-color: #e0c395;
+  background-color: #517E23;
 }
 
 .label-info[href]:hover,
@@ -478,30 +478,30 @@ margin-left: 30%;
 }
 
 .label-danger {
-  background-color: #d9534f;
+  background-color: #517E23;
 }
 
 .label-danger[href]:hover,
 .label-danger[href]:focus {
-  background-color: #c9302c;
+  background-color: #517E23;
 }
 
 .label-success {
-  background-color: #c9994d;
+  background-color: #517E23;
 }
 
 .label-success[href]:hover,
 .label-success[href]:focus {
-  background-color: #c9994d;
+  background-color: #517E23;
 }
 
 .label-warning {
-  background-color: #f0ad4e;
+  background-color: #517E23;
 }
 
 .label-warning[href]:hover,
 .label-warning[href]:focus {
-  background-color: #ec971f;
+  background-color: #517E23;
 }
 
 /* Meters */
@@ -604,7 +604,7 @@ margin-left: 30%;
   background-color: #517E23;
 }
 .asbestos > span{
-  background-color: #c9994d;
+  background-color: #517E23;
 }
 .nostripes > span > span, .nostripes > span:after {
   -webkit-animation: none;
