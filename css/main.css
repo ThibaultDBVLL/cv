@@ -21,7 +21,7 @@ p, blockquote, q, pre, address, hr, code, samp, dl, ol, ul, form, table, fieldse
 
 /* TYPOGRAPHY */
 /* Composed to a scale of 12px, 14px, 16px, 18px, 21px, 24px, 36px, 48px, 60px and 72px */
-h1, h2, h3, h4, h5, h6 {font-family:'Open Sans', sans-serif;color:#444;}
+h1, h2, h3, h4, h5, h6 {font-family:'Open Sans', sans-serif;color: white;}
 h1 {margin: 0; font-size: 3.75em; line-height: 1.2em; margin-bottom: 0.4em} /* 60px / 72px */
 h2 {margin: 0; font-size: 3em; line-height: 1em; margin-bottom: 0.5em} /* 48px / 48px */
 h3 {margin: 0; font-size: 2.25em; line-height: 1.3333333333333333333333333333333em; margin-bottom: 0.6667em} /* 36px / 48px */
@@ -69,7 +69,7 @@ dt {font-family:Futura, "Century Gothic", AppleGothic, sans-serif}
 /* HYPERLINKS */
 a {
   text-decoration: none;
-  color: #E74C3C;
+  color: rgb(152, 212, 92);
   -webkit-transition: color 0.1s linear, border 0.1s linear, opacity 0.1s linear, background-color 0.1s linear;
   -moz-transition: color 0.1s linear, border 0.1s linear, opacity 0.1s linear, background-color 0.1s linear;
   -ms-transition: color 0.1s linear, border 0.1s linear, opacity 0.1s linear, background-color 0.1s linear;
@@ -163,7 +163,11 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
 /* Backgrounds */
 
 .bg-1{
-  background-image: url('../images/floor8.jpg');
+  background-image: url('../images/nodejs-wallpaper.png');
+}
+
+body{
+  background-color : black;
 }
 
 /* Header */
@@ -193,7 +197,8 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
 }
 #tab-data-wrap{
   padding: 30px 20px;
-  background: rgba(255, 255, 255, 0.83);
+  background:black;
+  opacity : 0.9;
   border: 1px solid #f1f1f1;
   box-shadow: 0px 6px #c0392b;
   border-radius: 0px 0px 4px 4px;
@@ -270,10 +275,10 @@ margin-left: 30%;
   text-transform: uppercase;
   letter-spacing: 2px;
   margin-bottom: .3em;
-  color: rgb(138, 17, 17);
+  color: #517E23;
 }
 .info h4, #header h4{
-  color: #474545;
+  color:white;
 }
 
 /* Contact */
@@ -746,10 +751,14 @@ Change widths as necessary
 }
 
 #recherche{
-  color: rgb(138, 17, 17);
+  color: rgb(82, 126, 38);
 }
 
 .etabs{
   display : flex;
   justify-content: center; 
+}
+
+div{
+  color : white;
 }
