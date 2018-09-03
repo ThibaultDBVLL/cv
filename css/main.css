@@ -363,8 +363,10 @@ margin-left: 30%;
 /* Portfolio */
 .image{
   /* position: relative; */
-  display : inline-flex;
-  flex-wrap: wrap;
+  display : flex;
+  /*flex-wrap: wrap; */
+  flex-direction: column !important;
+
 }
 .image img{
   margin: 0px;
@@ -764,4 +766,8 @@ Change widths as necessary
 
 div{
   color : white;
+}
+
+.text-center{
+  text-align: center;
 }

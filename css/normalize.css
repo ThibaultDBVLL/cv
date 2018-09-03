@@ -525,3 +525,11 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+
+.image{
+    /* position: relative; */
+    display : flex;
+    /*flex-wrap: wrap; */
+    flex-direction: column !important;
+  
+  }
