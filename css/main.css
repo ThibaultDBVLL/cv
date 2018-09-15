@@ -779,3 +779,8 @@ div{
   width: 100%;
 }
 
+.justify-small{
+  display: inline-flex;
+  justify-content: center;
+}
+
